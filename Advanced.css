@@ -15,6 +15,18 @@ body {
     font-size: 20px;
     margin: 0 10px 0 10px;
 }
+.div1-1 a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div1-1 a:hover {
+    border-bottom: 1px solid black;
+}
+.div1-1 i:hover {
+    border-bottom: 1px solid black;
+}
 .div2 {
     padding : 25px 35px 25px 35px;
     font-family : Arial, Helvetica, sans-serif;
@@ -57,4 +69,9 @@ body {
 }
 *:focus {
     outline: none;
+    background-color:white;
+}
+#submitB {
+    margin-top : 20px;
+    padding : 10px 20px;
 }
